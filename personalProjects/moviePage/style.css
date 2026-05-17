@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Imperial+Script&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Luxurious+Script&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    padding-bottom: 1rem;
+}
+
+body{
+    background-color: #0d0d0d; 
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e0d6cc;
+
+}
+
+header{
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8b1a1a;
+    /* letter-spacing: 2px; */
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: #1a2a3a;
+    
+}
+
+img{
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 10px;
+}
+
+section{
+    padding: 1rem;
+    border-left: 4px solid #8b1a1a;
+    margin-bottom: 2rem;
+}
+
+h2{
+    color: #8b1a1a;
+    padding-bottom: 1rem;
+}
+
+iframe{
+    border: none;
+}
+
+a{
+    color: #7089a5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8b1a1a;
+}
+
+fieldset{
+    border: none;
+}
+
+input[type="text"]{
+    color: #e0d6cc;
+    border: 2px solid #1a2a3a;
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 5px;
+    outline: none;
+    background-color: #0d0d0d;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid #2c2c2c;
+    border-radius: 5px;
+
+}
+
+textarea{
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #1a2a3a;
+    background-color: #0d0d0d;
+    color: #e0d6cc;
+}
+
+button{
+    padding: 0.5rem;
+    background-color: #7089a5;
+    color: #1a2a3a;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    color: #0d0d0d;
+    background-color: #8b1a1a;
+}
+
+.a{
+    color: #a09080;
+}
+
+footer{
+    background-color: #8b1a1a;
+    color: #e0d6cc;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;;
+}
+
+.vermelho {
+    color: #8b1a1a;
+}
+
+.azul{
+    color: #7089a5;
+}
+
